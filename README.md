@@ -167,3 +167,7 @@ RNF09 - O Web Server deve ser SQL Server Express.
 ###[Cadastro de medicamentos](Cadastro de medicamentos.png)
 
 ###[Cadastro de pacientes](Cadastro de pacientes.png)
+
+##Diagrama de Caso de Uso
+
+###[Caso de uso](Caso de uso.png)
