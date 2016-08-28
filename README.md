@@ -157,3 +157,13 @@ RNF07 – O sistema deverá disponibilizar acesso às informações seguindo nor
 RNF08 - O banco de dados utilizado deve ser ORACLE.
 
 RNF09 - O Web Server deve ser SQL Server Express.
+
+##Diagrama de Atividade
+
+###[Agenda da consultas](Agendas de consultas.png)
+
+###[Cadastro de exames](Cadastro de exames.png)
+
+###[Cadastro de medicamentos](Cadastro de medicamentos.png)
+
+###[Cadastro de pacientes](Cadastro de pacientes.png)
