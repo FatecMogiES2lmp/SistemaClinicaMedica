@@ -138,6 +138,8 @@ RF14 - Deverá permitir o cadastro de planos de saúde, convênios.
 
 RF15- Deverá permitir o cadastro de cargos dos funcionários da clínica.
 
+## Requisitos Não Funcionais
+
 RNF01 - O sistema deverá ser desenvolvido para plataforma Web, acessível por meio de qualquer navegador.
 
 RNF02 - O sistema deverá possuir controle de acesso por usuário e senha.
