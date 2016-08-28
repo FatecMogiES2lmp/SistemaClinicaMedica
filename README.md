@@ -15,22 +15,28 @@ Paulo Henrique
 CLÍNICA MÉDICA
 
 1.  Clínica Médica:
+
 Realiza atendimento referente a uma ou diversas  especialidades, proporciona assistência   à prevenção, tratamento e recuperação de saúde, mediante atendimento médico, de acordo com sua especialidade.
 
 2. Funcionamento:
+
 Deve manter registro de todos os seus pacientes, bem como de seus funcionários. Além disso, na clínica ocorre a marcação de consultas, exames e outros procedimentos.  Logo que estas sejam marcadas o médico deverá realizar a consulta no período devidamente agendado, podendo solicitar exames e receitar medicamentos para os pacientes que ali foram atendidos.
 
-2. Trabalhadores de Negócio:
+3. Trabalhadores de Negócio:
 
 Funcionários da Clínica
 
-2. Atores de Negócio
+4. Atores de Negócio
+
 Paciente, Atendente, Médico e Administrador.
 
-3. Atividades de Negócio
+5. Atividades de Negócio
+
 Agendamento de consultas online, atendimento pessoal personalizado para as consultas médicas (oftalmologista, cardiologista, otorrinolaringologista, dermatologista, ginecologista, urologista, endocrinologista, gastroenterologista, oncologista, neurologista, ortopedista, angiologista, nutricionista e psiquiatria).
 
-4. Regras de Negócio
+
+6. Regras de Negócio
+
 RN01 - Senhas devem ter no mínimo oito caracteres, entre números e letras.
 
 RN02 - Todos os campos do cadastro de pacientes são obrigatórios.
@@ -95,28 +101,50 @@ Um sistema que permita:
 - Suporte Técnico para resolver as questões mais frequentes de uso da solução, presencialmente ou mesmo online.
 
 6. Requisitos
-RF01 - Deverá permitir emissão de relatório de agendamentos de consultas médicas;
-RF02 - Deverá permitir alteração da senha de acesso;
-RF03 - Deverá permitir o cadastro de pacientes;
-RF04 - Deverá permitir o registro de agendamento de consulta;
-RF05 - Deverá permitir cadastro de medicamentos;
-RF06 - Deverá permitir cadastro de exames complementares;
-RF07 - Deverá permitir a geração de receitas;
-RF08 - Deverá permitir a geração laudos.;
-RF09 - Deverá permitir a consulta a prontuários dos pacientes.
-RF10 - Deverá permitir atualização do prontuário....
+RF01 - Deverá permitir emissão de relatório de agendamentos de consultas médicas
+
+RF02 - Deverá permitir alteração da senha de acesso
+
+RF03 - Deverá permitir o cadastro de pacientes
+
+RF04 - Deverá permitir o registro de agendamento de consulta
+
+RF05 - Deverá permitir cadastro de medicamentos
+
+RF06 - Deverá permitir cadastro de exames complementares
+
+RF07 - Deverá permitir a geração de receitas
+
+RF08 - Deverá permitir a geração laudos
+
+RF09 - Deverá permitir a consulta a prontuários dos pacientes
+
+RF10 - Deverá permitir atualização do prontuário
+
 RF11 - Deverá permitir o cadastro de clínicas médicas.
+
 RF12 - Deverá permitir o cadastro de usuário do sistema.
+
 RF13 - Deverá permitir o cadastro de profissionais médicos.
+
 RF14 - Deverá permitir o cadastro de planos de saúde, convênios.
+
 RF15- Deverá permitir o cadastro de cargos dos funcionários da clínica.
 
 RNF01 - O sistema deverá ser desenvolvido para plataforma Web, acessível por meio de qualquer navegador.
+
 RNF02 - O sistema deverá possuir controle de acesso por usuário e senha.
+
 RNF03 - As senhas devem ser armazenadas criptografadas no banco de dados.
+
 RNF04 - O sistema deve ter tempo de resposta em consultas de no máximo 5 segundos com a rede funcionando   em condições normais.
+
 RNF05 - O sistema deverá realizar log de acesso.
+
 RNF06 - O sistema deve estar disponível de segunda às sexta-feira das 08:00 às 19:00 e no sábado das 08:00 às 12:00. 
+
 RNF07 – O sistema deverá disponibilizar acesso às informações seguindo normas instituídas pelo CREMESP.
+
 RNF08 - O banco de dados utilizado deve ser ORACLE.
+
 RNF09 - O Web Server deve ser SQL Server Express.
