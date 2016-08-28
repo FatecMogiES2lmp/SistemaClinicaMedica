@@ -12,30 +12,30 @@ Paulo Henrique
 
 
 
-CLÍNICA MÉDICA
+# CLÍNICA MÉDICA
 
--  Clínica Médica:
+## Clínica Médica:
 
 Realiza atendimento referente a uma ou diversas  especialidades, proporciona assistência   à prevenção, tratamento e recuperação de saúde, mediante atendimento médico, de acordo com sua especialidade.
 
-- Funcionamento:
+## Funcionamento:
 
 Deve manter registro de todos os seus pacientes, bem como de seus funcionários. Além disso, na clínica ocorre a marcação de consultas, exames e outros procedimentos.  Logo que estas sejam marcadas o médico deverá realizar a consulta no período devidamente agendado, podendo solicitar exames e receitar medicamentos para os pacientes que ali foram atendidos.
 
-- Trabalhadores de Negócio:
+## Trabalhadores de Negócio:
 
 Funcionários da Clínica
 
-- Atores de Negócio
+## Atores de Negócio
 
 Paciente, Atendente, Médico e Administrador.
 
-- Atividades de Negócio
+## Atividades de Negócio
 
 Agendamento de consultas online, atendimento pessoal personalizado para as consultas médicas (oftalmologista, cardiologista, otorrinolaringologista, dermatologista, ginecologista, urologista, endocrinologista, gastroenterologista, oncologista, neurologista, ortopedista, angiologista, nutricionista e psiquiatria).
 
 
-- Regras de Negócio
+## Regras de Negócio
 
 RN01 - Senhas devem ter no mínimo oito caracteres, entre números e letras.
 
@@ -91,7 +91,8 @@ RN26 - Somente o administrador poderá cadastrar novos médicos e atendentes.
 
 RN27 - O Administrador não poderá desmarcar consultas de pacientes
 
-- Proposta de Solução
+## Proposta de Solução
+
 Um sistema que permita:
 
 Um prontuário eletrônico onde o médico possa acessar as informações de seus pacientes de onde estiver, de maneira totalmente segura.
@@ -106,7 +107,7 @@ Migrar o cadastro, bem como prontuários médicos de pacientes de outras clinica
 
 Suporte Técnico para resolver as questões mais frequentes de uso da solução, presencialmente ou mesmo online.
 
-- Requisitos
+## Requisitos
 RF01 - Deverá permitir emissão de relatório de agendamentos de consultas médicas
 
 RF02 - Deverá permitir alteração da senha de acesso
