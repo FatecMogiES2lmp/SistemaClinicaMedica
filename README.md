@@ -14,28 +14,28 @@ Paulo Henrique
 
 CLÍNICA MÉDICA
 
-1.  Clínica Médica:
+-  Clínica Médica:
 
 Realiza atendimento referente a uma ou diversas  especialidades, proporciona assistência   à prevenção, tratamento e recuperação de saúde, mediante atendimento médico, de acordo com sua especialidade.
 
-2. Funcionamento:
+- Funcionamento:
 
 Deve manter registro de todos os seus pacientes, bem como de seus funcionários. Além disso, na clínica ocorre a marcação de consultas, exames e outros procedimentos.  Logo que estas sejam marcadas o médico deverá realizar a consulta no período devidamente agendado, podendo solicitar exames e receitar medicamentos para os pacientes que ali foram atendidos.
 
-3. Trabalhadores de Negócio:
+- Trabalhadores de Negócio:
 
 Funcionários da Clínica
 
-4. Atores de Negócio
+- Atores de Negócio
 
 Paciente, Atendente, Médico e Administrador.
 
-5. Atividades de Negócio
+- Atividades de Negócio
 
 Agendamento de consultas online, atendimento pessoal personalizado para as consultas médicas (oftalmologista, cardiologista, otorrinolaringologista, dermatologista, ginecologista, urologista, endocrinologista, gastroenterologista, oncologista, neurologista, ortopedista, angiologista, nutricionista e psiquiatria).
 
 
-6. Regras de Negócio
+- Regras de Negócio
 
 RN01 - Senhas devem ter no mínimo oito caracteres, entre números e letras.
 
