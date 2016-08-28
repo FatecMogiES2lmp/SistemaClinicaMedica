@@ -3,8 +3,11 @@
 FACULDADE DE TECNOLOGIA DE MOGI DAS CRUZES
 ANÁLISE E DESENVOLVIMENTO DE SISTEMAS
 DISCIPLINA DE ENGENHARIA DE SOFTWARE II 
+
 Lucas Júlio
+
 Marco Antonio
+
 Paulo Henrique
 
 
@@ -92,14 +95,14 @@ Um sistema que permita:
 - Suporte Técnico para resolver as questões mais frequentes de uso da solução, presencialmente ou mesmo online.
 
 6. Requisitos
-RF01 - Deverá permitir emissão de relatório de agendamentos de consultas médicas.
-RF02 - Deverá permitir alteração da senha de acesso.
-RF03 - Deverá permitir o cadastro de pacientes.
-RF04 - Deverá permitir o registro de agendamento de consulta.
-RF05 - Deverá permitir cadastro de medicamentos.
-RF06 - Deverá permitir cadastro de exames complementares.
-RF07 - Deverá permitir a geração de receitas.
-RF08 - Deverá permitir a geração laudos.
+RF01 - Deverá permitir emissão de relatório de agendamentos de consultas médicas;
+RF02 - Deverá permitir alteração da senha de acesso;
+RF03 - Deverá permitir o cadastro de pacientes;
+RF04 - Deverá permitir o registro de agendamento de consulta;
+RF05 - Deverá permitir cadastro de medicamentos;
+RF06 - Deverá permitir cadastro de exames complementares;
+RF07 - Deverá permitir a geração de receitas;
+RF08 - Deverá permitir a geração laudos.;
 RF09 - Deverá permitir a consulta a prontuários dos pacientes.
 RF10 - Deverá permitir atualização do prontuário....
 RF11 - Deverá permitir o cadastro de clínicas médicas.
