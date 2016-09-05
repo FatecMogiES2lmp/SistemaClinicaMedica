@@ -91,27 +91,25 @@ RN010 - Planos de Saúde devem estar registrados na ANS (Agência Nacional de Sa
 
 RN011 - O paciente não poderá marcar duas consultas no mesmo horário.
 
-RN012 - Somente o atendente poderá cadastrar novos pacientes
+RN012 - O paciente não poderá realizar o pedido de um exame sem guia médico
 
-RN013 - O paciente não poderá realizar o pedido de um exame sem guia médico
+RN013 - O atendente só poderá cadastrar um paciente que tenha o CPF e RG em mãos
 
-RN014 - O atendente só poderá cadastrar um paciente que tenha o CPF e RG em mãos
+RN014 - O paciente deve estar cadastrado para realizar um pedido para consulta médica
 
-RN015 - O paciente deve estar cadastrado para realizar um pedido para consulta médica
+RN015- Em caso de emergência, o paciente não precisará marcar uma consulta
 
-RN016- Em caso de emergência, o paciente não precisará marcar uma consulta
+RN016 - Para cada diagnóstico o histórico médico do paciente será atualizado
 
-RN017 - Para cada diagnóstico o histórico médico do paciente será atualizado
+RN017 - O paciente pode marcar consultas com um ou mais médicos, obedecendo RN017.
 
-RN018 - O paciente pode marcar consultas com um ou mais médicos, obedecendo RN017.
+RN018 - Um médico pode realizar consultas com um ou mais pacientes
 
-RN019 - Um médico pode realizar consultas com um ou mais pacientes
+RN019 - Cada consulta é realizada com apenas um médico.
 
-RN020 - Cada consulta é realizada com apenas um médico.
+RN020 - Somente o administrador poderá cadastrar novos médicos e atendentes.
 
-RN021 - Somente o administrador poderá cadastrar novos médicos e atendentes.
-
-RN022 - O Administrador não poderá desmarcar consultas de pacientes
+RN021 - O Administrador não poderá desmarcar consultas de pacientes
 
 
 ## Requisitos
