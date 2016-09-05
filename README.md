@@ -186,14 +186,25 @@ RNF010 - Os dados informados no campo usuário e senha deverão ser validados ju
 
 ##Diagrama de Atividade
 
-###[Agenda da consultas](Agendas de consultas1.png)
+###[Agenda da consultas](https://drive.google.com/open?id=0B_CGtlMvgSccc0V1OXNYTkxPdlE)
 
-###[Cadastro de exames](Cadastro de exames1.png)
+###[Cadastro de exames](https://drive.google.com/open?id=0B_CGtlMvgSccY09WYmRGaXBacnM)
 
-###[Cadastro de medicamentos](Cadastro de medicamentos1.png)
+###[Cadastro de medicamentos](https://drive.google.com/open?id=0B_CGtlMvgSccV1ZuS2VkdkxPaUk)
 
-###[Cadastro de pacientes](Cadastro de pacientes1.png)
+###[Cadastro de pacientes](https://drive.google.com/open?id=0B_CGtlMvgScceUFDU19UaHBBR1k)
 
 ##Diagrama de Caso de Uso
 
-###[Caso de uso](Caso de uso1.png)
+###[Caso de uso](https://drive.google.com/open?id=0B_CGtlMvgSccelpQYkhpVlg1eFE)
+
+
+##Protótipo Visual
+
+###[Página Inicial - Administrador](https://drive.google.com/open?id=0B_CGtlMvgSccVU1TX3E1elJZdEE)
+
+###[Página Inicial - Atendente](https://drive.google.com/open?id=0B_CGtlMvgSccQnBXOVpiUFRIOEE)
+
+###[Página Inicial - Médico](https://drive.google.com/open?id=0B_CGtlMvgSccMnRiYjFKUkptQ1k)
+
+###[Página Inicial - Paciente](https://drive.google.com/open?id=0B_CGtlMvgSccV2Z0RHQ5ZVhxdFk)
