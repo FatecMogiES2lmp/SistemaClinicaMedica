@@ -22,74 +22,21 @@ Realiza atendimento referente a uma ou diversas  especialidades, proporciona ass
 
 Deve manter registro de todos os seus pacientes, bem como de seus funcionários. Além disso, na clínica ocorre a marcação de consultas, exames e outros procedimentos.  Logo que estas sejam marcadas o médico deverá realizar a consulta no período devidamente agendado, podendo solicitar exames e receitar medicamentos para os pacientes que ali foram atendidos.
 
-## Trabalhadores de Negócio:
+## Problema:
 
-Funcionários da Clínica
+Atendentes geralmente possuem um grande número de atribuições. Agendamento de consultas, acompanhar pacientes, gestão da agenda do médico além de dar total suporte ao profissional de saúde.
 
-## Atores de Negócio
+Pacientes não conseguem agendar suas consultas de forma fácil, prática e rápida.
 
-Paciente, Atendente, Médico e Administrador.
+Dificuldades de gerenciar as faltas e encaixes para que não existam horários vagos.
 
-## Atividades de Negócio
+O acesso aos documentos da clínica, cadastros, bem como prontuários de pacientes ainda são organizados em fichários e pastas suspensas.
 
-Agendamento de consultas online, atendimento pessoal personalizado para as consultas médicas (oftalmologista, cardiologista, otorrinolaringologista, dermatologista, ginecologista, urologista, endocrinologista, gastroenterologista, oncologista, neurologista, ortopedista, angiologista, nutricionista e psiquiatria).
+Dificuldades para acessar o cadastro, bem como prontuários médicos de pacientes que migram de outras clinicas.
 
+Administração não consegue identificar se a clínica está ou não, obtendo lucro ou prejuízo, ou mesmo dando conta de pagar os custos para sua operação.
 
-## Regras de Negócio
-
-RN01 - Senhas devem ter no mínimo oito caracteres, entre números e letras.
-
-RN02 - Todos os campos do cadastro de pacientes são obrigatórios.
-
-RN03 - As informações sobre os pacientes devem seguir as normas instituídas pelo CREMESP.
-
-RN04 - Todos os funcionários deverão preencher o termo de confidencialidade de informações.
-
-RN05 - O administrador não deve ter restrições ao sistema e deverá atribuir grau de acesso a cada usuário do sistema.
-
-RN06 - O cadastro poderá ser atualizado quando houver alteração de dados de funcionários ou de pacientes. Todos os campos poderão ser alterados, exceto RG e CPF.
-
-RN07 - Os dados informados no campo usuário e senha deverão ser validados junto ao cadastro de usuário no banco de dados. 
-
-RN08 - Para utilizar o sistema, o usuário deverá efetuar o login.
-
-RN09 - Todo usuário cadastrado deverá receber o status ATIVO, caso não seja mais permitido o acesso, passará para o status INATIVO
-
-RN10 - Pacientes menores de dezoito anos, deverão ser cadastrados somente por seus responsáveis.
-
-RN11- Fornecedores e parceiros devem possuir cadastro no sistema.
-
-RN12 - Pagamentos podem ser efetuados com dinheiro, cheque ou cartões de crédito.
-
-RN13 – Qualquer cancelamento de consulta por parte do cliente deverá ter um aviso de até   48 horas de antecedência. Caso contrário, uma multa será aplicada.
-
-RN14 – A clínica deve manter convênios com UNIMED, SAMED, BRADESCO SAÚDE, AMIL, SULAMÉRICA SAÚDE, GOLDEN CROSS e CRUZ AZUL, os quais deverão estar cadastrados no sistema.
-
-RN15 - Planos de Saúde devem estar registrados na ANS (Agência Nacional de Saúde Suplementar), que regula o setor.
-
-RN16 - O paciente não poderá marcar duas consultas no mesmo horário.
-
-RN17 - Somente o atendente poderá cadastrar novos pacientes
-
-RN18 - O paciente não poderá realizar o pedido de um exame sem guia médico
-
-RN19 - O atendente só poderá cadastrar um paciente que tenha o CPF e RG em mãos
-
-RN20 - O paciente deve estar cadastrado para realizar um pedido para consulta médica
-
-RN21 - Em caso de emergência, o paciente não precisará marcar uma consulta
-
-RN22 - Para cada diagnóstico o histórico médico do paciente será atualizado
-
-RN23 - O paciente pode marcar consultas com um ou mais médicos, obedecendo RN16.
-
-RN24 - Um médico pode realizar consultas com um ou mais pacientes
-
-RN25 - Cada consulta é realizada com apenas um médico.
-
-RN26 - Somente o administrador poderá cadastrar novos médicos e atendentes.
-
-RN27 - O Administrador não poderá desmarcar consultas de pacientes
+Pagamentos são efetuados apenas com dinheiro ou cheque.
 
 ## Proposta de Solução
 
@@ -107,36 +54,113 @@ Migrar o cadastro, bem como prontuários médicos de pacientes de outras clinica
 
 Suporte Técnico para resolver as questões mais frequentes de uso da solução, presencialmente ou mesmo online.
 
+## Trabalhadores de Negócio:
+
+Funcionários da Clínica
+
+## Atores de Negócio
+
+Paciente, Atendente, Médico e Administrador.
+
+## Atividades de Negócio
+
+Agendamento de consultas online, atendimento pessoal personalizado para as consultas médicas (oftalmologista, cardiologista, otorrinolaringologista, dermatologista, ginecologista, urologista, endocrinologista, gastroenterologista, oncologista, neurologista, ortopedista, angiologista, nutricionista e psiquiatria).
+
+
+## Regras de Negócio
+
+RN01 - Todos os campos do cadastro de pacientes são obrigatórios.
+
+RN02 - As informações sobre os pacientes devem seguir as normas instituídas pelo CREMESP.
+
+RN03 - Todos os funcionários deverão preencher o termo de confidencialidade de informações.
+
+RN04 - O cadastro poderá ser atualizado quando houver alteração de dados de funcionários ou de pacientes. Todos os campos poderão ser alterados, exceto RG e CPF.
+
+RN05 - Pacientes menores de dezoito anos, deverão ser cadastrados somente por seus responsáveis.
+
+RN06 – Pagamentos devem ser efetuados com dinheiro ou cheque.
+
+RN07 – Qualquer cancelamento de consulta por parte do cliente deverá ter um aviso de até   48 horas de antecedência. Caso contrário, uma multa será aplicada.  
+
+RN08 - O Médico pode cancelar uma consulta marcada com até dois dias úteis antes da data da consulta. 
+
+RN09 – A clínica deve manter convênios com UNIMED, SAMED, BRADESCO SAÚDE, AMIL, SULAMÉRICA SAÚDE, GOLDEN CROSS e CRUZ AZUL.
+
+RN010 - Planos de Saúde devem estar registrados na ANS (Agência Nacional de Saúde Suplementar), que regula o setor.
+
+RN011 - O paciente não poderá marcar duas consultas no mesmo horário.
+
+RN012 - Somente o atendente poderá cadastrar novos pacientes
+
+RN013 - O paciente não poderá realizar o pedido de um exame sem guia médico
+
+RN014 - O atendente só poderá cadastrar um paciente que tenha o CPF e RG em mãos
+
+RN015 - O paciente deve estar cadastrado para realizar um pedido para consulta médica
+
+RN016- Em caso de emergência, o paciente não precisará marcar uma consulta
+
+RN017 - Para cada diagnóstico o histórico médico do paciente será atualizado
+
+RN018 - O paciente pode marcar consultas com um ou mais médicos, obedecendo RN017.
+
+RN019 - Um médico pode realizar consultas com um ou mais pacientes
+
+RN020 - Cada consulta é realizada com apenas um médico.
+
+RN021 - Somente o administrador poderá cadastrar novos médicos e atendentes.
+
+RN022 - O Administrador não poderá desmarcar consultas de pacientes
+
+
 ## Requisitos
-RF01 - Deverá permitir emissão de relatório de agendamentos de consultas médicas
+RF01 - Deverá permitir emissão de relatório de agendamentos de consultas médicas.
 
-RF02 - Deverá permitir alteração da senha de acesso
+RF02 - Deverá permitir alteração da senha de acesso.
 
-RF03 - Deverá permitir o cadastro de pacientes
+RF03 - Deverá permitir o cadastro de pacientes.
 
-RF04 - Deverá permitir o registro de agendamento de consulta
+RF04 - Deverá permitir o registro de agendamento de consulta.
 
-RF05 - Deverá permitir cadastro de medicamentos
+RF05 - Deverá permitir cadastro de medicamentos.
 
-RF06 - Deverá permitir cadastro de exames complementares
+RF06 - Deverá permitir cadastro de exames complementares.
 
-RF07 - Deverá permitir a geração de receitas
+RF07 - Deverá permitir a geração de receitas.
 
-RF08 - Deverá permitir a geração laudos
+RF08 - Deverá permitir a geração laudos.
 
-RF09 - Deverá permitir a consulta a prontuários dos pacientes
+RF09 - Deverá permitir a consulta a prontuários dos pacientes.
 
-RF10 - Deverá permitir atualização do prontuário
+RF010 - Deverá permitir atualização do prontuário.
 
-RF11 - Deverá permitir o cadastro de clínicas médicas.
+RF011 - Deverá permitir o cadastro de clínicas médicas.
 
-RF12 - Deverá permitir o cadastro de usuário do sistema.
+RF012 - Deverá permitir o cadastro de usuário do sistema.
 
-RF13 - Deverá permitir o cadastro de profissionais médicos.
+RF013 - Deverá permitir o cadastro de profissionais médicos.
 
-RF14 - Deverá permitir o cadastro de planos de saúde, convênios.
+RF014 - Deverá permitir o cadastro de planos de saúde, convênios e parceiros. Consulte RN09.
 
-RF15- Deverá permitir o cadastro de cargos dos funcionários da clínica.
+RF015 - Deverá permitir o cadastro de cargos dos funcionários da clínica.
+
+RF016 - Deverá permitir o acesso do Sistema PayPal para pagamentos através de cartões.
+
+RF017 - As senhas de acesso dos pacientes, médicos, funcionários e administradores devem ter no mínimo 8 caracteres, entre números e letras.
+
+RF018 - O administrador não deve ter restrições ao sistema e deverá atribuir grau de acesso a cada usuário do sistema.
+
+RF019 - Para utilizar o sistema, o usuário deverá efetuar o login.
+
+RF020 - Todo usuário cadastrado deverá receber o status ATIVO, caso não seja mais permitido o acesso, passará para o status INATIVO
+
+RF021 - O Sistema deverá permitir o cadastro de parceiros e fornecedores.
+
+RF022 - Caso um paciente cancele uma consulta, o sistema enviará o cancelamento ao Médico, e já realoca os horários livres para possíveis novas consultas.
+
+RF023 - Caso o médico cancele uma consulta, o sistema envia uma mensagem de cancelamento ao Paciente que terá prioridade na marcação de uma próxima consulta.
+
 
 ## Requisitos Não Funcionais
 
@@ -146,7 +170,7 @@ RNF02 - O sistema deverá possuir controle de acesso por usuário e senha.
 
 RNF03 - As senhas devem ser armazenadas criptografadas no banco de dados.
 
-RNF04 - O sistema deve ter tempo de resposta em consultas de no máximo 5 segundos com a rede funcionando   em condições normais.
+RNF04 - O sistema deverá realizar todas as funcionalidades de inserção, busca, entre outros num tempo considerado aceitável, para evitar esperas pelo lado do utilizador.
 
 RNF05 - O sistema deverá realizar log de acesso.
 
@@ -157,6 +181,8 @@ RNF07 – O sistema deverá disponibilizar acesso às informações seguindo nor
 RNF08 - O banco de dados utilizado deve ser ORACLE.
 
 RNF09 - O Web Server deve ser SQL Server Express.
+
+RNF010 - Os dados informados no campo usuário e senha deverão ser validados junto ao cadastro de usuário no banco de dados.
 
 ##Diagrama de Atividade
 
