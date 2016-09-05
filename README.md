@@ -4,7 +4,7 @@ FACULDADE DE TECNOLOGIA DE MOGI DAS CRUZES
 ANÁLISE E DESENVOLVIMENTO DE SISTEMAS
 DISCIPLINA DE ENGENHARIA DE SOFTWARE II 
 
-Lucas Júlio
+Lucas Julio
 
 Marco Antonio
 
@@ -60,7 +60,7 @@ Funcionários da Clínica
 
 ## Atores de Negócio
 
-Paciente, Atendente, Médico e Administrador.
+Paciente, Atendente, Médico, Administrador e Sistema de Cartões.
 
 ## Atividades de Negócio
 
