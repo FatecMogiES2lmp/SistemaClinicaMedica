@@ -186,14 +186,14 @@ RNF010 - Os dados informados no campo usuário e senha deverão ser validados ju
 
 ##Diagrama de Atividade
 
-###[Agenda da consultas](Agendas de consultas.png)
+###[Agenda da consultas](Agendas de consultas1.png)
 
-###[Cadastro de exames](Cadastro de exames.png)
+###[Cadastro de exames](Cadastro de exames1.png)
 
-###[Cadastro de medicamentos](Cadastro de medicamentos.png)
+###[Cadastro de medicamentos](Cadastro de medicamentos1.png)
 
-###[Cadastro de pacientes](Cadastro de pacientes.png)
+###[Cadastro de pacientes](Cadastro de pacientes1.png)
 
 ##Diagrama de Caso de Uso
 
-###[Caso de uso](Caso de uso.png)
+###[Caso de uso](Caso de uso1.png)
