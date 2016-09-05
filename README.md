@@ -24,35 +24,35 @@ Deve manter registro de todos os seus pacientes, bem como de seus funcionários.
 
 ## Problema:
 
-Atendentes geralmente possuem um grande número de atribuições. Agendamento de consultas, acompanhar pacientes, gestão da agenda do médico além de dar total suporte ao profissional de saúde.
+* Atendentes geralmente possuem um grande número de atribuições. Agendamento de consultas, acompanhar pacientes, gestão da agenda do médico além de dar total suporte ao profissional de saúde.
 
-Pacientes não conseguem agendar suas consultas de forma fácil, prática e rápida.
+* Pacientes não conseguem agendar suas consultas de forma fácil, prática e rápida.
 
-Dificuldades de gerenciar as faltas e encaixes para que não existam horários vagos.
+* Dificuldades de gerenciar as faltas e encaixes para que não existam horários vagos.
 
-O acesso aos documentos da clínica, cadastros, bem como prontuários de pacientes ainda são organizados em fichários e pastas suspensas.
+* O acesso aos documentos da clínica, cadastros, bem como prontuários de pacientes ainda são organizados em fichários e pastas suspensas.
 
-Dificuldades para acessar o cadastro, bem como prontuários médicos de pacientes que migram de outras clinicas.
+* Dificuldades para acessar o cadastro, bem como prontuários médicos de pacientes que migram de outras clinicas.
 
-Administração não consegue identificar se a clínica está ou não, obtendo lucro ou prejuízo, ou mesmo dando conta de pagar os custos para sua operação.
+* Administração não consegue identificar se a clínica está ou não, obtendo lucro ou prejuízo, ou mesmo dando conta de pagar os custos para sua operação.
 
-Pagamentos são efetuados apenas com dinheiro ou cheque.
+* Pagamentos são efetuados apenas com dinheiro ou cheque.
 
 ## Proposta de Solução
 
-Um sistema que permita:
+* Um sistema que permita:
 
-Um prontuário eletrônico onde o médico possa acessar as informações de seus pacientes de onde estiver, de maneira totalmente segura.
+* Um prontuário eletrônico onde o médico possa acessar as informações de seus pacientes de onde estiver, de maneira totalmente segura.
 
-Otimizar tempo da equipe evitando ligações, reduzindo custos de telecomunicação, lembrando o paciente por e-mail ou SMS.
+* Otimizar tempo da equipe evitando ligações, reduzindo custos de telecomunicação, lembrando o paciente por e-mail ou SMS.
 
-Agenda organizada, com um módulo simples, que permita gerenciar de forma rápida e organizada todos os atendimentos da clínica.
+* Agenda organizada, com um módulo simples, que permita gerenciar de forma rápida e organizada todos os atendimentos da clínica.
 
-A agenda que permita gerenciar simultaneamente o atendimento de no mínimo 10 médicos de maneira simples, organizada e eficiente.
+* A agenda que permita gerenciar simultaneamente o atendimento de no mínimo 10 médicos de maneira simples, organizada e eficiente.
 
-Migrar o cadastro, bem como prontuários médicos de pacientes de outras clinicas para o sistema.
+* Migrar o cadastro, bem como prontuários médicos de pacientes de outras clinicas para o sistema.
 
-Suporte Técnico para resolver as questões mais frequentes de uso da solução, presencialmente ou mesmo online.
+* Suporte Técnico para resolver as questões mais frequentes de uso da solução, presencialmente ou mesmo online.
 
 ## Trabalhadores de Negócio:
 
