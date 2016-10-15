@@ -124,18 +124,6 @@ RN26 - Somente o administrador poderá cadastrar novos médicos e atendentes.
 RN27 - O Administrador não poderá desmarcar consultas de pacientes
 
 
-8. Proposta de Solução
-
-Um sistema que permita:
-- Um prontuário eletrônico onde o médico possa acessar as informações de seus pacientes de onde estiver, de maneira totalmente segura.
-- Otimizar tempo da equipe evitando ligações, reduzindo custos de telecomunicação, lembrando o paciente por e-mail ou SMS.
-- Agenda organizada, com um módulo simples, que permita gerenciar de forma rápida e organizada todos os atendimentos da clínica.
-- A agenda que permita gerenciar simultaneamente o atendimento de no mínimo 10 médicos de maneira simples, organizada e eficiente.
-- Migrar o cadastro, bem como prontuários médicos de pacientes de outras clinicas para o sistema.
-- Integrar um Sistema para pagamentos com cartões de crédito ou débito.
-- Suporte Técnico para resolver as questões mais frequentes de uso da solução, presencialmente ou mesmo online.
-
-
 ## Requisitos Funcionais
 
 RF01 - Deverá permitir emissão de relatório de agendamentos de consultas médicas.
