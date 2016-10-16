@@ -211,3 +211,8 @@ RNF11 -  O sistema deve possuir senhas de acesso e identificação para diferent
 ###[Página Inicial - Médico](https://drive.google.com/open?id=0B_CGtlMvgSccMnRiYjFKUkptQ1k)
 
 ###[Página Inicial - Paciente](https://drive.google.com/open?id=0B_CGtlMvgSccV2Z0RHQ5ZVhxdFk)
+
+
+##Diagrama de Classes
+
+###[Diagrama Classes - Clinica](https://drive.google.com/drive/folders/0B9ke3oMQmKgybjFpTWNNdDNBaFE)
