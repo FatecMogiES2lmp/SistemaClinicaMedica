@@ -204,13 +204,13 @@ RNF11 -  O sistema deve possuir senhas de acesso e identificação para diferent
 
 ##Protótipo Visual
 
-###[Página Inicial - Administrador](https://drive.google.com/open?id=0B_CGtlMvgSccVU1TX3E1elJZdEE)
+###[Página Inicial - Administrador](/Prototipo/Tela administrador.jpeg)
 
-###[Página Inicial - Atendente](https://drive.google.com/open?id=0B_CGtlMvgSccQnBXOVpiUFRIOEE)
+###[Página Inicial - Atendente](/Prototipo/Tela atendente.jpeg)
 
-###[Página Inicial - Médico](https://drive.google.com/open?id=0B_CGtlMvgSccMnRiYjFKUkptQ1k)
+###[Página Inicial - Médico](/Prototipo/Tela medico.jpeg)
 
-###[Página Inicial - Paciente](https://drive.google.com/open?id=0B_CGtlMvgSccV2Z0RHQ5ZVhxdFk)
+###[Página Inicial - Paciente](/Prototipo/Tela paciente.jpeg)
 
 
 ##Diagrama de Classes
