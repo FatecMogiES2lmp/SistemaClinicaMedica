@@ -189,13 +189,13 @@ RNF11 -  O sistema deve possuir senhas de acesso e identificação para diferent
 
 ##Diagrama de Atividade
 
-###[Agenda da consultas](https://drive.google.com/open?id=0B_CGtlMvgSccc0V1OXNYTkxPdlE)
+###[Agenda da consultas](/Diagrama-de-Atividade/Agendas de consultas.jpg)
 
-###[Cadastro de exames](https://drive.google.com/open?id=0B_CGtlMvgSccY09WYmRGaXBacnM)
+###[Cadastro de exames](/Diagrama-de-Atividade/Cadastro de exames.jpg)
 
-###[Cadastro de medicamentos](https://drive.google.com/open?id=0B_CGtlMvgSccV1ZuS2VkdkxPaUk)
+###[Cadastro de medicamentos](/Diagrama-de-Atividade/Cadastro de medicamentos.jpg)
 
-###[Cadastro de pacientes](https://drive.google.com/open?id=0B_CGtlMvgScceUFDU19UaHBBR1k)
+###[Cadastro de pacientes](/Diagrama-de-Atividade/Cadastro de pacientes.jpg)
 
 ##Diagrama de Caso de Uso
 
