@@ -199,7 +199,7 @@ RNF11 -  O sistema deve possuir senhas de acesso e identificação para diferent
 
 ##Diagrama de Caso de Uso
 
-###[Caso de uso](https://drive.google.com/drive/folders/0B9ke3oMQmKgybXE0UnAwT1NZYm8)
+###[Caso de uso](/Diagrama-Caso-de-Uso/UseCase Clinica.jpg)
 
 
 ##Protótipo Visual
@@ -215,4 +215,4 @@ RNF11 -  O sistema deve possuir senhas de acesso e identificação para diferent
 
 ##Diagrama de Classes
 
-###[Diagrama Classes - Clinica](https://drive.google.com/drive/folders/0B9ke3oMQmKgybjFpTWNNdDNBaFE)
+###[Diagrama Classes - Clinica](/Diagrama-de-classe/diagrama.jpg)
