@@ -201,6 +201,7 @@ RNF11 -  O sistema deve possuir senhas de acesso e identificação para diferent
 
 ###[Caso de uso](/Diagrama-Caso-de-Uso/UseCase Clinica.jpg)
 
+###[Documentação caso de uso](/Diagrama-Caso-de-Uso/Documentação casos de uso.docx)
 
 ##Protótipo Visual
 
