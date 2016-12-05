@@ -186,7 +186,7 @@ RNF11 -  O sistema deve possuir senhas de acesso e identificação para diferent
 
 ##Diagrama de Atividade
 
-###[Agenda da consultas](/Diagrama-de-Atividade/Agendas de consultas.jpg)
+###[Agenda da consultas](/Diagrama-de-Atividade/Agenda de consulta.jpg)
 
 ###[Cadastro de exames](/Diagrama-de-Atividade/Cadastro de exames.jpg)
 
