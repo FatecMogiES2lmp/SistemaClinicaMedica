@@ -69,59 +69,39 @@ Agendamento de consultas online, atendimento pessoal personalizado para as consu
 
 ## Regras de Negócio
 
-RN01 - Senhas devem ter no mínimo oito caracteres, entre números e letras.
+RN01 - Todos os campos do cadastro de pacientes são obrigatórios.
 
-RN02 - Todos os campos do cadastro de pacientes são obrigatórios.
+RN02 - As informações sobre os pacientes devem seguir as normas instituídas pelo CREMESP.
 
-RN03 - As informações sobre os pacientes devem seguir as normas instituídas pelo CREMESP.
+RN03 - Todos os funcionários deverão preencher o termo de confidencialidade de informações.
 
-RN04 - Todos os funcionários deverão preencher o termo de confidencialidade de informações.
+RN04 - Pacientes menores de dezoito anos, deverão ser cadastrados somente por seus responsáveis.
 
-RN05 -  Administrador e médicos não devem ter restrições ao sistema.
+RN05 - Pagamentos podem ser efetuados com dinheiro, cheque ou cartões de débito ou crédito.
 
-RN06 - O cadastro poderá ser atualizado quando houver alteração de dados de funcionários ou de pacientes. Todos os campos poderão ser alterados, exceto RG e CPF.
+RN06 - Planos de Saúde devem estar registrados na ANS (Agência Nacional de Saúde Suplementar), que regula o setor.
 
-RN07 - Os dados informados no campo usuário e senha deverão ser validados junto ao cadastro de usuário no banco de dados. 
+RN07 - O paciente não poderá marcar duas consultas no mesmo horário.
 
-RN08 - O sistema deverá suportar processamento multiusuário, ou seja, vários usuários poderão utilizar o sistema simultaneamente
+RN08 – Administrador, médico e atendente poderão cadastrar novos pacientes
 
-RN09 - Pacientes menores de dezoito anos, deverão ser cadastrados somente por seus responsáveis.
+RN09 - O paciente não poderá realizar o pedido de um exame sem guia
 
-RN10- Fornecedores e parceiros devem possuir cadastro no sistema.
+RN10 - O atendente só poderá cadastrar um paciente que tenha o CPF e RG em mãos
 
-RN11 - Pagamentos podem ser efetuados com dinheiro, cheque ou cartões de débito ou crédito.
+RN11 - O paciente deve estar cadastrado para realizar um pedido para consulta médica
 
-RN12 – Qualquer cancelamento de consulta por parte do cliente deverá ter um aviso de até   48 horas de antecedência. Caso contrário, uma multa será aplicada.  O sistema envia o cancelamento ao Médico, e já realoca os horários livres para possíveis novas consultas.
+RN12 - Em caso de emergência, o paciente não precisará marcar uma consulta
 
-RN13 - O Médico pode cancelar uma consulta marcada com até dois dias úteis antes da data da consulta. O sistema envia uma mensagem de cancelamento ao Paciente que terá prioridade na marcação de uma próxima consulta.
+RN13 - Para cada diagnóstico o histórico médico do paciente será atualizado
 
-RN14 – Convênio com UNIMED, SAMED, BRADESCO SAÚDE, AMIL, SULAMÉRICA SAÚDE, GOLDEN CROSS e CRUZ AZUL, os quais deverão estar cadastrados no sistema.
+RN14 - O paciente pode marcar consultas com um ou mais médicos, obedecendo RN07.
 
-RN15 - Planos de Saúde devem estar registrados na ANS (Agência Nacional de Saúde Suplementar), que regula o setor.
+RN15 - Um médico pode realizar consultas com um ou mais pacientes
 
-RN16 - O paciente não poderá marcar duas consultas no mesmo horário.
+RN16 - Cada consulta é realizada com apenas um médico.
 
-RN17 – Administrador, médico e atendente poderão cadastrar novos pacientes
-
-RN18 - O paciente não poderá realizar o pedido de um exame sem guia
-
-RN19 - O atendente só poderá cadastrar um paciente que tenha o CPF e RG em mãos
-
-RN20 - O paciente deve estar cadastrado para realizar um pedido para consulta médica
-
-RN21 - Em caso de emergência, o paciente não precisará marcar uma consulta
-
-RN22 - Para cada diagnóstico o histórico médico do paciente será atualizado
-
-RN23 - O paciente pode marcar consultas com um ou mais médicos, obedecendo RN16.
-
-RN24 - Um médico pode realizar consultas com um ou mais pacientes
-
-RN25 - Cada consulta é realizada com apenas um médico.
-
-RN26 - Somente o administrador poderá cadastrar novos médicos e atendentes.
-
-RN27 - O Administrador não poderá desmarcar consultas de pacientes
+RN17 - O Administrador não poderá desmarcar consultas de pacientes
 
 
 ## Requisitos Funcionais
@@ -160,8 +140,25 @@ RF16- Deverá permitir o cadastro de cargos dos funcionários da clínica.
 
 RF17- Deverá permitir o acesso do Sistema PayPal para pagamentos através de cartões.
 
+RF18 - Somente o administrador poderá cadastrar novos médicos e atendentes.
 
+RF19 – Convênio com UNIMED, SAMED, BRADESCO SAÚDE, AMIL, SULAMÉRICA SAÚDE, GOLDEN CROSS e CRUZ AZUL, os quais deverão estar cadastrados no sistema.
 
+RF20 – Qualquer cancelamento de consulta por parte do cliente deverá ter um aviso de até   48 horas de antecedência. Caso contrário, uma multa será aplicada.  O sistema envia o cancelamento ao Médico, e já realoca os horários livres para possíveis novas consultas.
+
+RF21- Fornecedores e parceiros devem possuir cadastro no sistema.
+
+RF22 - O sistema deverá suportar processamento multiusuário, ou seja, vários usuários poderão utilizar o sistema simultaneamente
+
+RF23 - Os dados informados no campo usuário e senha deverão ser validados junto ao cadastro de usuário no banco de dados. 
+
+RN24 - O cadastro poderá ser atualizado quando houver alteração de dados de funcionários ou de pacientes. Todos os campos poderão ser alterados, exceto RG e CPF.
+
+RF25 -  Administrador e médicos não devem ter restrições ao sistema.
+
+RF26 - Senhas devem ter no mínimo oito caracteres, entre números e letras.
+
+RF27 - O Médico pode cancelar uma consulta marcada com até dois dias úteis antes da data da consulta. O sistema envia uma mensagem de cancelamento ao Paciente que terá prioridade na marcação de uma próxima consulta.
 ## Requisitos Não Funcionais
 
 RNF01 - O sistema deverá ser desenvolvido para plataforma Web, acessível por meio de qualquer navegador.
